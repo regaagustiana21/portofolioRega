@@ -238,11 +238,11 @@ ul li a:hover {
   right: 0;
   z-index: 0;
   top: 0;
-  padding-top: 10vh;
+  margin-top: 10%;
 }
 
 .img1 img{
-  width: 59vh;
+  width: 30vh;
 }
 
 .img2{
@@ -293,6 +293,14 @@ ul li a:hover {
   border-radius: 40%;
 }
 
+.sun{
+  position: absolute;
+  top: -20%;
+  left: 74%;
+  z-index: 1;
+}
+
+
 .circle{
   position: absolute;
   top: 0;
@@ -322,7 +330,7 @@ ul li a:hover {
   position: absolute;
   display: flex;
   justify-content: start;
-  z-index: 1;
+  z-index: 2;
   left: 0;
 }
 
@@ -406,9 +414,6 @@ ul li a:hover {
   color: #6b7280;
 }
 
-.proyek {
-  margin-bottom: -140px;
-}
 
 .proyek h2 {
   margin-bottom: 5rem;
@@ -483,8 +488,8 @@ ul li a:hover {
 
 .portofolio {
   background: var(--primary-color);
-  margin-top: 50px;
   padding-bottom: 100px;
+  margin-top: -5%;
 }
 
 .portofolio h2 {
@@ -562,6 +567,7 @@ ul li a:hover {
   font-size: 1.3rem;
   color: #0f1035;
 }
+
 
 .contact h2 {
   margin-bottom: 2rem;
@@ -766,10 +772,12 @@ ul li a:hover {
   .image img {
     width: 40vh;
   }
-  .section__container .content {
-    height: 10px;
-    margin-top: -35%;
+  .section__container {
+    height: 10vh;
+    margin-top: -25%;
+  
   }
+  
   nav .checkbox {
     margin-right: 15px;
   }
@@ -788,8 +796,14 @@ ul li a:hover {
     display: inline;
     top: 45%;
   }
-  .img1{
-    display: none;
+  .social-media a{
+    font-size: 1.8rem;
+  }
+  .img1 img{
+    position: absolute;
+    width: 10vh;
+    left: 220%;
+    margin-top: 40%;
   }
   .about .about-content {
     text-align: center;
